@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  background-color: #D8D8D8;
+  font-family: 'Poppins';
+  font-weight: 500;
+  color: #000000;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+h1, h2, h3 {
+  color: #3d0f61;
+  font-family: 'Poppins'
+}
+h1 {
+  /* color: #091647; */
+  font-size: 24px;
+  line-height: 28px;
+}
+h2 {
+  color: #3d0f61;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+a {
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: #94458d;
+  font-weight: 600;
+  font-size: 20px;
+}
+a:hover {
+  color: #ab96b8;
+}
+
+.img-circle {
+  border-radius: 10%;
+}
+
+.container {
+  width: 700px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-green {
+  background-color: #ffdaf8;
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(36, 31, 31, 0.1);
+  border-radius: 10px;
+  margin: 28px 0px;
+  text-align: center;
+}
+
+.btn-green {
+  background-color: #29053f;
+  color: #ffdaf8;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+/* background, border, border-radius et box-shadow */
